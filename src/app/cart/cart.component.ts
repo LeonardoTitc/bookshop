@@ -10,7 +10,6 @@ import { Books } from '../models/Books';
 })
 export class CartComponent implements OnInit {
 
-  isInCart: boolean = false;
 
 
   constructor(private cartService: CartService) { }
@@ -24,3 +23,4 @@ export class CartComponent implements OnInit {
 
 
 }
+
