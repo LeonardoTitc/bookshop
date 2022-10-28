@@ -1,0 +1,8 @@
+<h1>Harry Potter Novel</h1>
+
+
+<ul>
+  <ng-container *ngFor="let singleBook of books; let i=index">
+    <app-book [book]="singleBook" class="w-1/2 p-5 text-center"></app-book>
+  </ng-container>
+</ul>
